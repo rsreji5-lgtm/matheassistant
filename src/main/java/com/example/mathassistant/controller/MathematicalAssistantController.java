@@ -77,8 +77,8 @@ public class MathematicalAssistantController {
                 n = Integer.parseInt(nStr.trim());
                 if (n < 1) {
                     error = "n must be at least 1.";
-                } else if (n > 20) {
-                    error = "n too large (max 20).";
+                } else if (n > 50) {
+                    error = "n too large (max 50).";
                 } else {
                     // Generate Fibonacci sequence
                     List<Double> fibs = new ArrayList<>();
